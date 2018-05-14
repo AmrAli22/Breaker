@@ -1,0 +1,6 @@
+framework module Pods_Breaker {
+  umbrella header "Pods-Breaker-umbrella.h"
+
+  export *
+  module * { export * }
+}
