@@ -159,7 +159,7 @@
                                         </constraints>
                                         <state key="normal" image="addNewIcon"/>
                                         <connections>
-                                            <segue destination="MR9-Bo-qvO" kind="presentation" id="olU-fw-5To"/>
+                                            <segue destination="MR9-Bo-qvO" kind="show" id="yGi-rJ-dFo"/>
                                         </connections>
                                     </button>
                                 </subviews>
