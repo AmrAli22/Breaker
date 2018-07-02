@@ -27,6 +27,8 @@ class AuthService{
     }
     
     
+
+    
     func loginUser( withEmail email:String, andPassword password:
         String, LoginComplete: @escaping(_ status: Bool, _ error: Error?)->()){
         
@@ -41,3 +43,9 @@ class AuthService{
         }
     }
 }
+
+
+
+
+
+

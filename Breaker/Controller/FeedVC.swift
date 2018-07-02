@@ -1,8 +1,8 @@
 //
-//  FirstViewController.swift
+//  FeedVC.swift
 //  Breaker
 //
-//  Created by Sayed Abdo on 4/30/18.
+//  Created by Amr Ali on 4/30/18.
 //  Copyright © 2018 AAA. All rights reserved.
 //
 
@@ -42,20 +42,25 @@ extension FeedVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = TblViewFeed.dequeueReusableCell(withIdentifier: "feedcell") as? FeedCellVC else {
+        guard let cell = TblViewFeed.dequeueReusableCell(withIdentifier: "FeedCell") as? FeedCellVC else {
             return UITableViewCell()
         }
         let image = UIImage(named: "defaultProfileImage")
         let message = messageArray[indexPath.row]
         
-        cell.ConfigureCell(ProfileImage: image!, email: message.SenderId, Content: message.Content)
+        
+        DataService.instance.getUsername(forUID: message.SenderId ) { (returnedUsername) in
+            cell.ConfigureCell(ProfileImage: image!, email: returnedUsername, Content: message.Content)
+        }
+        
         
         return cell
     }
-    
-    
-    
-    
-    
 }
+
+
+
+
+
+
 

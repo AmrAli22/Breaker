@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1617E77720E9F64000A5CF63 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617E77620E9F64000A5CF63 /* GroupFeedVC.swift */; };
+		1617E77920E9F6BC00A5CF63 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617E77820E9F6BC00A5CF63 /* CreateGroupsVC.swift */; };
 		16193D052097F1B4000BE7C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16193D042097F1B4000BE7C4 /* GoogleService-Info.plist */; };
 		161CF17D209E93B8005E52C5 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CF17C209E93B7005E52C5 /* UIViewExt.swift */; };
 		161CF17F209E9BA1005E52C5 /* FeedCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CF17E209E9BA1005E52C5 /* FeedCellVC.swift */; };
 		161CF181209EA472005E52C5 /* Massege.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CF180209EA472005E52C5 /* Massege.swift */; };
+		16288C7F20E9B6DF00571902 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16288C7E20E9B6DE00571902 /* UIViewControllerExt.swift */; };
+		16288C8120E9B8C500571902 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16288C8020E9B8C400571902 /* Group.swift */; };
+		16288C8520E9C12E00571902 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16288C8220E9C12D00571902 /* GroupCell.swift */; };
+		16288C8620E9C12E00571902 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16288C8320E9C12D00571902 /* GroupFeedCell.swift */; };
+		16288C8720E9C12E00571902 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16288C8420E9C12D00571902 /* UserCell.swift */; };
 		164A87E52099465B008DA16F /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164A87E42099465B008DA16F /* AuthVC.swift */; };
 		164A87E72099493A008DA16F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164A87E62099493A008DA16F /* LoginVC.swift */; };
 		16553848209A977D00E6B19E /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16553847209A977D00E6B19E /* MeVC.swift */; };
@@ -29,10 +36,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1617E77620E9F64000A5CF63 /* GroupFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupFeedVC.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/Controller/GroupFeedVC.swift"; sourceTree = "<group>"; };
+		1617E77820E9F6BC00A5CF63 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateGroupsVC.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/Controller/CreateGroupsVC.swift"; sourceTree = "<group>"; };
 		16193D042097F1B4000BE7C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		161CF17C209E93B7005E52C5 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		161CF17E209E9BA1005E52C5 /* FeedCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellVC.swift; sourceTree = "<group>"; };
 		161CF180209EA472005E52C5 /* Massege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Massege.swift; sourceTree = "<group>"; };
+		16288C7E20E9B6DE00571902 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerExt.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/Extensions/UIViewControllerExt.swift"; sourceTree = "<group>"; };
+		16288C8020E9B8C400571902 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Group.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/Model/Group.swift"; sourceTree = "<group>"; };
+		16288C8220E9C12D00571902 /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupCell.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/View/GroupCell.swift"; sourceTree = "<group>"; };
+		16288C8320E9C12D00571902 /* GroupFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupFeedCell.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/View/GroupFeedCell.swift"; sourceTree = "<group>"; };
+		16288C8420E9C12D00571902 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = "../../../10 Full Stack Development With Firebase/attached_files/162 Creating a UIViewController Extension for Presenting GroupFeedVC/breakpoint/breakpoint/View/UserCell.swift"; sourceTree = "<group>"; };
 		164A87E42099465B008DA16F /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		164A87E62099493A008DA16F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		16553847209A977D00E6B19E /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
@@ -109,9 +123,10 @@
 				1671E1182097DC78004E45CF /* GroupsVC.swift */,
 				164A87E42099465B008DA16F /* AuthVC.swift */,
 				164A87E62099493A008DA16F /* LoginVC.swift */,
+				1617E77820E9F6BC00A5CF63 /* CreateGroupsVC.swift */,
 				16553847209A977D00E6B19E /* MeVC.swift */,
+				1617E77620E9F64000A5CF63 /* GroupFeedVC.swift */,
 				16553849209AB24400E6B19E /* PostSomeThingVC.swift */,
-				161CF17E209E9BA1005E52C5 /* FeedCellVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,7 +135,11 @@
 			isa = PBXGroup;
 			children = (
 				16E0814D20981E8000BB854A /* InsetTextField.swift */,
+				161CF17E209E9BA1005E52C5 /* FeedCellVC.swift */,
 				16E0814E20981E8100BB854A /* ShadowView.swift */,
+				16288C8220E9C12D00571902 /* GroupCell.swift */,
+				16288C8320E9C12D00571902 /* GroupFeedCell.swift */,
+				16288C8420E9C12D00571902 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +147,7 @@
 		1671E12A2097DD22004E45CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				16288C8020E9B8C400571902 /* Group.swift */,
 				161CF180209EA472005E52C5 /* Massege.swift */,
 			);
 			path = Model;
@@ -137,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				161CF17C209E93B7005E52C5 /* UIViewExt.swift */,
+				16288C7E20E9B6DE00571902 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -306,8 +327,15 @@
 				161CF17F209E9BA1005E52C5 /* FeedCellVC.swift in Sources */,
 				161CF17D209E93B8005E52C5 /* UIViewExt.swift in Sources */,
 				16553848209A977D00E6B19E /* MeVC.swift in Sources */,
+				16288C8620E9C12E00571902 /* GroupFeedCell.swift in Sources */,
+				1617E77920E9F6BC00A5CF63 /* CreateGroupsVC.swift in Sources */,
+				16288C8520E9C12E00571902 /* GroupCell.swift in Sources */,
+				16288C8120E9B8C500571902 /* Group.swift in Sources */,
+				1617E77720E9F64000A5CF63 /* GroupFeedVC.swift in Sources */,
+				16288C8720E9C12E00571902 /* UserCell.swift in Sources */,
 				16E0815020981E8200BB854A /* ShadowView.swift in Sources */,
 				1671E1192097DC78004E45CF /* GroupsVC.swift in Sources */,
+				16288C7F20E9B6DF00571902 /* UIViewControllerExt.swift in Sources */,
 				164A87E52099465B008DA16F /* AuthVC.swift in Sources */,
 				16E0814F20981E8200BB854A /* InsetTextField.swift in Sources */,
 				161CF181209EA472005E52C5 /* Massege.swift in Sources */,

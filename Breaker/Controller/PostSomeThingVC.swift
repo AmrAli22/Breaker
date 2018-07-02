@@ -2,7 +2,7 @@
 //  PostSomeThing.swift
 //  Breaker
 //
-//  Created by Amr Ali on 5/2/18.
+//  Created by Amr Ali on 5/1/18.
 //  Copyright © 2018 AAA. All rights reserved.
 //
 
@@ -28,6 +28,12 @@ class PostSomeThingVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.LblEmailPost.text = Auth.auth().currentUser?.email
+    }
+    
     
     @IBAction func ActBtnSend(_ sender: Any)
     {
